@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #030316;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 100vh;
+}
+.textarea{
+    max-width: 420px;
+    min-width: 420px;
+    max-height: 230px;
+    min-height: 230px;
+    border: 1px solid deepskyblue;
+    box-shadow: 0 0 0.35rem 0.01rem deepskyblue;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+.speak-btn{
+    width: 150px;
+    height: 40px;
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+    background-color: transparent;
+    color: deepskyblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    transition: .25s ease-in-out;
+}
+.speak-btn:hover{
+    background-color: #00bfff21;
+    color: #fff;
+    box-shadow: 0 0 0.35rem 0.01rem deepskyblue;
+}
