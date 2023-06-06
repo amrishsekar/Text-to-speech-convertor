@@ -6,5 +6,4 @@ speak.addEventListener("click",()=>{
     let utterance = new SpeechSynthesisUtterance(textarea.value);
 
     speechSynthesis.speak(utterance);
-})
-;
+});
