@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #030316;
     font-family: sans-serif;
 }
+
 .container{
     display: flex;
     justify-content: center;
@@ -15,6 +17,7 @@ body {
     gap: 15px;
     height: 100vh;
 }
+
 .textarea{
     max-width: 420px;
     min-width: 420px;
@@ -28,8 +31,13 @@ body {
     background-color: transparent;
     color: #fff;
     font-size: 16px;
+    overflow-x: hidden;
 }
-.speak-btn{
+.textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.speakBtn{
     width: 150px;
     height: 40px;
     border: 2px solid deepskyblue;
@@ -43,7 +51,8 @@ body {
     word-spacing: 4px;
     transition: .25s ease-in-out;
 }
-.speak-btn:hover{
+
+.speakBtn:hover{
     background-color: #00bfff21;
     color: #fff;
     box-shadow: 0 0 0.35rem 0.01rem deepskyblue;

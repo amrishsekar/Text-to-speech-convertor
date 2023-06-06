@@ -1,4 +1,4 @@
-const speak = document.querySelector(".speak-btn");
+const speak = document.querySelector(".speakBtn");
 
 const textarea = document.querySelector(".textarea");
 
